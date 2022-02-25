@@ -1,6 +1,12 @@
-Array.prototype.forEach = function(fn, thisArg) {
+// The forEach() method executes a provided function once for each array element.
+/**
+ *
+ * @param callbackFn
+ * @param thisArg
+ */
+Array.prototype.forEach = function(callbackFn, thisArg) {
     for (let i = 0; i < this.length; i++) {
-        fn.call(thisArg, this[i], i, this)
+        callbackFn.call(thisArg, this[i], i, this)
     }
 }
 
