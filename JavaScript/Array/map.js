@@ -29,7 +29,7 @@ Array.prototype.map = function(callback, thisArg) {
   return result;
 };
 
-// Reference: http://es5.github.io/#x15.4.4.19
+// MDN Polyfill
 if (!Array.prototype.map) {
 
 	Array.prototype.map = function(callback/*, thisArg*/) {
