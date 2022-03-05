@@ -1,5 +1,6 @@
 /**
  * 语法： https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach#%E8%AF%AD%E6%B3%95
+ * ES标准：http://es5.github.io/#x15.4.4.18
  */
 
 // The forEach() method executes a provided function once for each array element.
